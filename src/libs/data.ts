@@ -6,7 +6,7 @@ import {ALPACA_SECRET, ALPACA_KEY, ALPHA_VANTAGE_KEY, STOCK_NEWS_KEY} from '../s
 import {getRandomInt} from '../utils/random';
 import {Alpaca} from './alpaca';
 
-const TEST_DATA = false;
+const TEST_DATA = true;
 
 const alpaca = new Alpaca({
   keyId: ALPACA_KEY,

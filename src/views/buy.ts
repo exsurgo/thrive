@@ -22,7 +22,7 @@ export class Buy extends Dialog {
       </div>
       <div class="row">
         <label>$ Maximum allowed Loss: 
-          <bx-number-input id="loss" value="9000"></bx-number-input>
+          <bx-number-input id="loss" value="500"></bx-number-input>
           A stop loss order will be automatically created.
         </label>
       </div>

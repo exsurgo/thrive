@@ -29,8 +29,8 @@ module.exports = (env, argv)=>({
     ]})
   ],
   output: {
-    filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    filename: 'thrive.min.js',
+    path: path.resolve(__dirname, 'server/dist')
   },
   module: {
     rules: [

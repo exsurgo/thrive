@@ -35,6 +35,7 @@ export class Dashboard extends AppElement {
         <hr>
         <img style="width: 500px" src="/assets/portfolio.png">
         <h2>Trending Stocks</h2>
+        <hr>
         <div style="padding: 10px;">
           ${this.stocks?.map((stock) => {
             return html`
